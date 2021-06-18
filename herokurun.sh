@@ -1,1 +1,1 @@
-.gradlew shadowjar && java -jar build/libs/
+.gradlew shadowjar && java -jar build/libs/bot.jar
