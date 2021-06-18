@@ -1,0 +1,1 @@
+.gradlew shadowjar && java -jar build/libs/

@@ -17,6 +17,10 @@ dependencies {
     implementation("net.dv8tion:JDA:4.3.0_277")
 }
 
+tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>{
+    archiveFileName.set("bot.jar")
+}
+
 application{
     mainClass.set("MainKt")
 }
