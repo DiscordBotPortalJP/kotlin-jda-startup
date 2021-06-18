@@ -8,8 +8,11 @@ Visit [Heroku DashBoard](https://dashboard.heroku.com/new-app) and create new ap
 
 ### Set Discord Token on Heroku app
 `app page` > `Setting` > `Config Vars` > `Reveal Config Vars`
+
 KEY: `Discord_Bot_Token`
+
 VALUE: Your discord bot token
+
 click `Add`
 
 ### Deploy
