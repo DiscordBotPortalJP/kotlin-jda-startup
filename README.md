@@ -20,7 +20,7 @@ After that `app page` > `Deploy` > `Deployment method` > Click `GitHub`.
 
 Input your repo name on the field in `Connect to GitHub` section to search, then click `connect`.
 
-Make sure your branch was certainly.
+Make sure the branch was you want to deploy certainly.
 
 Click `Enable Automatic Deploy` and `Deploy Branch`.
 
