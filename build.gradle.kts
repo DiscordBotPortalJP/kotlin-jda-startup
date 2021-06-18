@@ -17,6 +17,10 @@ dependencies {
     implementation("net.dv8tion:JDA:4.3.0_277")
 }
 
+tasks.register("stage"){
+    dependsOn("clean","shadowJar")
+}
+
 tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>{
     archiveFileName.set("bot.jar")
 }
@@ -25,9 +29,3 @@ application{
     mainClass.set("MainKt")
 }
 
-tasks.register("stage"){
-    dependsOn("clean","shadowJar")
-    doFirst{
-        logger.log(LogLevel.INFO,"run stage")
-    }
-}
