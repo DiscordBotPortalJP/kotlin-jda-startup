@@ -1,1 +1,1 @@
-run:sh ./herokurun.sh
+run:java -jar build/libs/bot.jar

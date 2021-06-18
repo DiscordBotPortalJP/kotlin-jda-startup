@@ -1,6 +1,0 @@
-{
-  "name": "kotlin-jda-startup",
-  "description": "HerokuでKotlin/JDAを始めるテンプレート",
-  "repository": "https://github.com/hisuie08/kotlin-jda-startup",
-  "keywords": ["kotlin","jda", "discord", "bot"]
-}
