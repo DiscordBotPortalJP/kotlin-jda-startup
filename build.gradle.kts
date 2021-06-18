@@ -27,4 +27,7 @@ application{
 
 tasks.register("stage"){
     dependsOn("clean","shadowJar")
+    doFirst{
+        logger.log(LogLevel.INFO,"run stage")
+    }
 }
