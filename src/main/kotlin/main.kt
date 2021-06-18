@@ -1,5 +1,4 @@
 import net.dv8tion.jda.api.*
-import net.dv8tion.jda.api.events.ReadyEvent
 import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent
 import net.dv8tion.jda.api.hooks.ListenerAdapter
 import net.dv8tion.jda.api.requests.GatewayIntent
@@ -14,12 +13,7 @@ class BotClient : ListenerAdapter(){
             .build()
     }
     
-    override fun onReady(event : ReadyEvent) {
-        println("ready!")
-    }
-    
     override fun onGuildMessageReceived(event : GuildMessageReceivedEvent) {
-        println("message received")
         if(event.message.contentDisplay == "/ping"){
             event.channel.sendMessageFormat("pong").queue()
         }
