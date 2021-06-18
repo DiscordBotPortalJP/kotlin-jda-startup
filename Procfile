@@ -1,1 +1,1 @@
-web:java -jar build/libs/bot.jar
+worker:java -jar build/libs/bot.jar
