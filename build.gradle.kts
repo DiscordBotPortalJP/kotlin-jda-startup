@@ -24,3 +24,7 @@ tasks.withType<com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar>{
 application{
     mainClass.set("MainKt")
 }
+
+tasks.register("stage"){
+    dependsOn("clean","shadowJar")
+}
