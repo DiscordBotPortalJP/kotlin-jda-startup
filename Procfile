@@ -1,1 +1,1 @@
-web:java -jar build/libs/bot.jar
+discordbot:java -jar build/libs/bot.jar
