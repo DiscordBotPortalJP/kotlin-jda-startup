@@ -21,7 +21,7 @@ class BotClient : ListenerAdapter(){
 }
 
 fun main() {
-    val token = System.getenv("Discord_Bot_Token")
+    val token = System.getenv("DISCORD_BOT_TOKEN")
     val bot = BotClient()
     bot.main(token)
 }
